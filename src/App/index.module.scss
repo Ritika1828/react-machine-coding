@@ -1,0 +1,15 @@
+.container{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+    .header{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(142, 210, 32);
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-weight: 800;
+    }
+}

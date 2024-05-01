@@ -1,0 +1,24 @@
+.compBox{
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), 1fr);
+    grid-gap: 12px;
+  
+    .cardBox{
+        border: 1px solid black;
+        border-radius: 20px;
+        height: 100px;
+        padding: 20px;
+        background-color: #cc6464;
+        display: flex;
+        align-items: center;
+        .heading{
+            font-size: 22px;
+            margin-left: 12px;
+            color: black;
+        }
+
+
+    }
+}
