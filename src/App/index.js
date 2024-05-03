@@ -8,9 +8,6 @@ function AppLayout(props) {
     <div className={styles.container}>
      <Header/>
     <Outlet />
-    <footer>
-        My name is Ritika
-    </footer>
     </div>
   )
 }

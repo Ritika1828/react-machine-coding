@@ -1,0 +1,26 @@
+.starText {
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+  }
+.star-container {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 40px;
+  }
+  .star {
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .active {
+    color: gold !important;
+  }
+  
+  .hovered {
+    color: yellow;
+  }
+  

@@ -6,6 +6,9 @@ import ReactAllComponent from './src/ReactAllComponent'
 import ProgressBar from './src/ProgressBar'
 import Autocomplete from './src/Autocomplete'
 import Error from './src/Error';
+import OTPScreen from './src/OTPScreen';
+import StarContainer from './src/StarContainer'
+import Countdowntimer from './src/Countdowntimer'
 
 import './index.css';
 
@@ -24,9 +27,18 @@ const appRouter = createBrowserRouter([
                 element: <ProgressBar />,
             },
             {
-                path: '/autocomplete',
-                element: <Autocomplete />,
+                path: '/countdowntimer',
+                element: <Countdowntimer />,
+            },
+            {
+                path: '/otp-screen',
+                element: <OTPScreen />,
+            },
+            {
+                path: '/star-container',
+                element: <StarContainer />,
             }
+            
         ],
         errorElement: <Error/>
     }

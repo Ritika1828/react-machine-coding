@@ -5,20 +5,26 @@ import Card from './Card'
 import { Link } from 'react-router-dom'
 
 const componentList = [
+    
     {
-        name: 'Progress Bar',
-        path: '/progressBar',
+        name: 'CountDown Timer',
+        path: '/countdowntimer',
         status: 'completed'
-    },
-    {
-        name: 'AutoComplete',
-        path: '/autocomplete',
-        status: 'pending'
     },
     {
         name: 'Star Container',
         path: '/star-container',
-        status: 'progress'
+        status: 'completed'
+    },
+    {
+        name: 'OTP Screen',
+        path: '/otp-screen',
+        status: 'completed'
+    },
+    {
+        name: 'Progress Bar',
+        path: '/progressBar',
+        status: 'pending'
     },
 ]
 
