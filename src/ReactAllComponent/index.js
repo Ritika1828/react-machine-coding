@@ -26,6 +26,11 @@ const componentList = [
         path: '/progressBar',
         status: 'pending'
     },
+    {
+        name: 'Auto Complete',
+        path: '/auto-complete',
+        status: 'pending'
+    },
 ]
 
 function ReactAllComponent(props) {
