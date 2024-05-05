@@ -9,6 +9,7 @@ import Error from './src/Error';
 import OTPScreen from './src/OTPScreen';
 import StarContainer from './src/StarContainer'
 import Countdowntimer from './src/Countdowntimer'
+import Autocomplete from './src/Autocomplete';
 
 import './index.css';
 
@@ -37,10 +38,18 @@ const appRouter = createBrowserRouter([
             {
                 path: '/star-container',
                 element: <StarContainer />,
+            },
+            {
+                path: '/auto-complete',
+                element: <Autocomplete />,
             }
             
         ],
         errorElement: <Error/>
+    },
+    {
+        path:'/second-progress-bar',
+        element: <StarContainer/>,
     }
 ])
 
