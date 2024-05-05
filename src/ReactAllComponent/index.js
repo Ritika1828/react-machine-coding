@@ -31,7 +31,18 @@ const componentList = [
         path: '/auto-complete',
         status: 'pending'
     },
+    {
+        name: 'Auto Complete',
+        path: '/auto-complete',
+        status: 'pending'
+    },
+    {
+        name: 'Counter',
+        path: '/counter',
+        status: 'pending'
+    },
 ]
+
 
 function ReactAllComponent(props) {
   return (
