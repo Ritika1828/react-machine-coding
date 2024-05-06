@@ -14,6 +14,7 @@ import { Counter } from "./src/Counter";
 
 import "./index.css";
 import { Counter } from "./src/Counter";
+import CircleWithRandomColor from "./src/CircleWithRandomColor";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const appRouter = createBrowserRouter([
@@ -48,6 +49,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/counter",
         element: <Counter />,
+      },
+      {
+        path: "/circle-random-color",
+        element: <CircleWithRandomColor />,
       },
     ],
     errorElement: <Error />,
