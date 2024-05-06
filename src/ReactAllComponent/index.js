@@ -29,17 +29,18 @@ const componentList = [
     {
         name: 'Auto Complete',
         path: '/auto-complete',
-        status: 'pending'
+        status: 'completed'
     },
-    {
-        name: 'Auto Complete',
-        path: '/auto-complete',
-        status: 'pending'
-    },
+    
     {
         name: 'Counter',
         path: '/counter',
-        status: 'pending'
+        status: 'completed'
+    },
+    {
+        name: 'Circle with Random Color',
+        path: '/circle-random-color',
+        status: 'completed'
     },
 ]
 
