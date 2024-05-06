@@ -46,11 +46,8 @@
   input,
   label,
   select,
-  button,
   textarea {
-    margin: 0;
     border: 0;
-    padding: 0;
     display: inline-block;
     vertical-align: middle;
     white-space: normal;
@@ -63,5 +60,15 @@
   input:focus,
   textarea:focus {
     outline: 0;
+  }
+
+  button{
+    padding: 20px;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
   }
   
