@@ -10,11 +10,14 @@ import OTPScreen from "./src/OTPScreen";
 import StarContainer from "./src/StarContainer";
 import Countdowntimer from "./src/Countdowntimer";
 import Autocomplete from "./src/Autocomplete";
+import TypingComponent from "./src/TypingComponent";
+import Accordian from "./src/Accordian";
 import { Counter } from "./src/Counter";
 
 import "./index.css";
 import { Counter } from "./src/Counter";
 import CircleWithRandomColor from "./src/CircleWithRandomColor";
+import TypingComponent from "./src/TypingComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const appRouter = createBrowserRouter([
@@ -53,6 +56,14 @@ const appRouter = createBrowserRouter([
       {
         path: "/circle-random-color",
         element: <CircleWithRandomColor />,
+      },
+      {
+        path: "/typing",
+        element: <TypingComponent />,
+      },
+      {
+        path: "/accordian",
+        element: <Accordian />,
       },
     ],
     errorElement: <Error />,

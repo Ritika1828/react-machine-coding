@@ -42,6 +42,16 @@ const componentList = [
         path: '/circle-random-color',
         status: 'completed'
     },
+    {
+        name: 'Typing',
+        path: '/typing',
+        status: 'completed'
+    },
+    {
+        name: 'Accordian',
+        path: '/accordian',
+        status: 'completed'
+    },
 ]
 
 
