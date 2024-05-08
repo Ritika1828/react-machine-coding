@@ -46,17 +46,21 @@ export default function Autocomplete() {
         console.log(err);
       });
   }
-
+  //from hook
+  // useEffect(() => {
+  //   if (value) {
+  //     // delayFetch(searchedProduct);
+  //     fetchProducts(value); //from hook
+  //   }
+  // }, [value]);
   useEffect(() => {
-    if (value) {
-      // delayFetch(searchedProduct);
-      fetchProducts(value); //from hook
+    if (searchedProduct) {
+      delayFetch(searchedProduct);
     }
-  }, [value]);
+  }, [searchedProduct]);
 
   const delayFetch = useCallback(debounce(fetchProducts, 500), []);
   // const delayFetch = debounce(fetchProducts, 500);
-  
 
   return (
     <div className={styles.container}>
