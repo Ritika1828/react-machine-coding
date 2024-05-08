@@ -42,6 +42,21 @@ const componentList = [
         path: '/circle-random-color',
         status: 'completed'
     },
+    {
+        name: 'Typing',
+        path: '/typing',
+        status: 'completed'
+    },
+    {
+        name: 'Accordian',
+        path: '/accordian',
+        status: 'completed'
+    },
+    {
+        name: 'TabComponents',
+        path: '/tab-components',
+        status: 'completed'
+    },
 ]
 
 
@@ -51,7 +66,7 @@ function ReactAllComponent(props) {
         {
             componentList.map((item, index)=> {
                 return (
-                    <Link to={item.path}>
+                    <Link to={item.path} key={index}>
                      <Card key={index} {...item}/>
                     </Link> 
                 )
