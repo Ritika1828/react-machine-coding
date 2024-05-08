@@ -20,10 +20,11 @@ function TabsEasy({ children, onChange, activeTab, textColor = "primary", tabCol
         return (
           <div
             key={index}
-            className={ cx(styles.tabsItem, styles[textColor], styles[tabColor], {[styles.active]: activeTab == index , [styles.disabled]:item.props.disabled })}
+            className={`tabsItem ${activeTab== index ? `active ${tabColor} ${textColor}`:''}`}
+            // className={ cx(styles.tabsItem, styles[textColor], styles[tabColor], {[styles.active]: activeTab == index , [styles.disabled]:item.props.disabled })}
             onClick={item?.props?.disabled ? null :(e) => onChange(e, index)}
           >
-            {item}
+            {item} 
           </div>
         );
       })}

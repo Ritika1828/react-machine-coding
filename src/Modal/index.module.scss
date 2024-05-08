@@ -1,0 +1,30 @@
+.container {
+  position: fixed;
+  background-color: rgba(0,0,0,0.6);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// .btn {
+// //   position: relative;
+  
+// }
+// .no-book-demo-scroll{
+//     overflow: hidden !important;
+// }
+
+.content {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+}

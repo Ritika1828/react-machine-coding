@@ -13,11 +13,13 @@ import Autocomplete from "./src/Autocomplete";
 import TypingComponent from "./src/TypingComponent";
 import Accordian from "./src/Accordian";
 import { Counter } from "./src/Counter";
-import TabComponent from "./src/TabComponent"
+import TabComponent from "./src/TabComponent";
 import "./index.css";
 import { Counter } from "./src/Counter";
 import CircleWithRandomColor from "./src/CircleWithRandomColor";
 import TypingComponent from "./src/TypingComponent";
+import Tooltip from "./src/ToolTip";
+import Modal from "./src/Modal";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const appRouter = createBrowserRouter([
@@ -67,9 +69,16 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/tab-components",
-        element: <TabComponent/>
-
-      }
+        element: <TabComponent />,
+      },
+      {
+        path: "/modal",
+        element: <Modal />,
+      },
+      {
+        path: "/tooltip",
+        element: <Tooltip />,
+      },
     ],
     errorElement: <Error />,
   },

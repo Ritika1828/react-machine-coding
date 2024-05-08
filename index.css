@@ -1,74 +1,107 @@
 :root {
-    --grid-columns: 5;
+  --grid-columns: 5;
 }
-  
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    height: 100%;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  a{
-    text-decoration: none;
-  }
-  
-  body {
-    font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-      'Droid Sans', 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    height: 100%;
-  }
-  
-  p,
-  h3 {
-    font-size: 1rem;
-    @media only screen and (min-width: 768px) {
-      font-size: 1.6rem;
-    }
-  }
-  
-  h1 {
-    font-size: 3rem;
-    @media only screen and (min-width: 768px) {
-      font-size: 6rem;
-    }
-  }
-  #root {
-    height: 100%;
-  }
-  
-  input,
-  label,
-  select,
-  textarea {
-    border: 0;
-    display: inline-block;
-    vertical-align: middle;
-    white-space: normal;
-    background: none;
-    font-size: 100%;
-    line-height: 100%;
-  }
-  
-  /* Remove the stupid outer glow in Webkit */
-  input:focus,
-  textarea:focus {
-    outline: 0;
-  }
+html {
+  height: 100%;
+}
 
-  button{
-    padding: 20px;
-    background-color: aquamarine;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 20px;
-    margin-top: 20px;
-    cursor: pointer;
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Outfit", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+p,
+h3 {
+  font-size: 1rem;
+  @media only screen and (min-width: 768px) {
+    font-size: 1.6rem;
   }
-  
+}
+
+h1 {
+  font-size: 3rem;
+  @media only screen and (min-width: 768px) {
+    font-size: 6rem;
+  }
+}
+#root {
+  height: 100%;
+}
+
+input,
+label,
+select,
+textarea {
+  border: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  font-size: 100%;
+  line-height: 100%;
+}
+
+/* Remove the stupid outer glow in Webkit */
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+button {
+  padding: 20px;
+  background-color: aquamarine;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.no-book-demo-scroll {
+  overflow: hidden !important;
+}
+.tabsItem {
+  padding: 20px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+
+  /* &.active {
+      border-bottom: 2px solid blue;
+      color: blue;
+      &.primary{
+          border-bottom: 2px solid green;
+          color: green;
+      }
+      &.secondary{
+          border-bottom: 2px solid yellow;
+          color: yellow;
+      }
+  } */
+  /* &.disabled {
+      color: grey;
+      cursor: not-allowed;
+  } */
+}
+
+.active {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+.active.primary{
+  border-bottom: 2px solid green;
+  color: green;
+}
