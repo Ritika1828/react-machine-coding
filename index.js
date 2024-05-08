@@ -13,7 +13,7 @@ import Autocomplete from "./src/Autocomplete";
 import TypingComponent from "./src/TypingComponent";
 import Accordian from "./src/Accordian";
 import { Counter } from "./src/Counter";
-
+import TabComponent from "./src/TabComponent"
 import "./index.css";
 import { Counter } from "./src/Counter";
 import CircleWithRandomColor from "./src/CircleWithRandomColor";
@@ -65,6 +65,11 @@ const appRouter = createBrowserRouter([
         path: "/accordian",
         element: <Accordian />,
       },
+      {
+        path: "/tab-components",
+        element: <TabComponent/>
+
+      }
     ],
     errorElement: <Error />,
   },

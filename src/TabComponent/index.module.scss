@@ -1,0 +1,22 @@
+.tabsItem{
+    padding: 20px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 2px solid blue;
+        color: blue;
+        &.primary{
+            border-bottom: 2px solid green;
+            color: green;
+        }
+        &.secondary{
+            border-bottom: 2px solid yellow;
+            color: yellow;
+        }
+    }
+    &.disabled {
+        color: grey;
+        cursor: not-allowed;
+    }
+}

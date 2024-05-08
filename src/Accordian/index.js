@@ -8,7 +8,7 @@ export function IsMulti({ isMulti, handleClick, currentIndex, children }) {
   }
   return (
     <div onClick={isMulti ? hanMultiClick : handleClick}>
-      {/* {isMulti ? (isOpen ? children : null) : children} */}
+      {isMulti ? (isOpen ? children : null) : children}
     </div>
   );
 }
@@ -25,17 +25,17 @@ export default function Accordian({
     <div>
       {data.map((content, index) => (
         <>
-          {/* <IsMulti
+          <IsMulti
             key={index}
             isMulti={isMulti}
             handleClick={handleClick}
             currentIndex={currentIndex}
-          > */}
+          >
             <div>
               {index}
               {currentIndex == index && <div>{content}</div>}
             </div>
-          {/* </IsMulti> */}
+          </IsMulti>
         </>
       ))}
     </div>

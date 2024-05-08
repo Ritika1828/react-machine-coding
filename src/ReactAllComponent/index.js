@@ -52,6 +52,11 @@ const componentList = [
         path: '/accordian',
         status: 'completed'
     },
+    {
+        name: 'TabComponents',
+        path: '/tab-components',
+        status: 'completed'
+    },
 ]
 
 
@@ -61,7 +66,7 @@ function ReactAllComponent(props) {
         {
             componentList.map((item, index)=> {
                 return (
-                    <Link to={item.path}>
+                    <Link to={item.path} key={index}>
                      <Card key={index} {...item}/>
                     </Link> 
                 )
