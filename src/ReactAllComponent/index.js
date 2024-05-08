@@ -57,6 +57,11 @@ const componentList = [
         path: '/tab-components',
         status: 'completed'
     },
+    {
+        name: 'Pagination',
+        path: '/pagination',
+        status: 'completed'
+    },
 ]
 
 

@@ -17,6 +17,7 @@ import TabComponent from "./src/TabComponent"
 import "./index.css";
 import { Counter } from "./src/Counter";
 import CircleWithRandomColor from "./src/CircleWithRandomColor";
+import Pagination from "./src/Pagination"
 import TypingComponent from "./src/TypingComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -68,7 +69,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/tab-components",
         element: <TabComponent/>
-
+      },
+      {
+        path: "/pagination",
+        element: <Pagination/>
       }
     ],
     errorElement: <Error />,
