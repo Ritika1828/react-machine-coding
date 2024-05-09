@@ -5,68 +5,65 @@ import Card from "./Card";
 import { Link } from "react-router-dom";
 
 const componentList = [
-  {
-    name: "CountDown Timer",
-    path: "/countdowntimer",
-    status: "completed",
-  },
-  {
-    name: "Star Container",
-    path: "/star-container",
-    status: "completed",
-  },
-  {
-    name: "OTP Screen",
-    path: "/otp-screen",
-    status: "completed",
-  },
-  {
-    name: "Progress Bar",
-    path: "/progressBar",
-    status: "pending",
-  },
-  {
-    name: "Auto Complete",
-    path: "/auto-complete",
-    status: "completed",
-  },
+    
+    {
+        name: 'CountDown Timer',
+        path: '/countdowntimer',
+        status: 'completed'
+    },
+    {
+        name: 'Star Container',
+        path: '/star-container',
+        status: 'completed'
+    },
+    {
+        name: 'OTP Screen',
+        path: '/otp-screen',
+        status: 'completed'
+    },
+    {
+        name: 'Progress Bar',
+        path: '/progressBar',
+        status: 'pending'
+    },
+    {
+        name: 'Auto Complete',
+        path: '/auto-complete',
+        status: 'completed'
+    },
+    
+    {
+        name: 'Counter',
+        path: '/counter',
+        status: 'completed'
+    },
+    {
+        name: 'Circle with Random Color',
+        path: '/circle-random-color',
+        status: 'completed'
+    },
+    {
+        name: 'Typing',
+        path: '/typing',
+        status: 'completed'
+    },
+    {
+        name: 'Accordian',
+        path: '/accordian',
+        status: 'completed'
+    },
+    {
+        name: 'TabComponents',
+        path: '/tab-components',
+        status: 'completed'
+    },
+    {
+        name: 'Pagination',
+        path: '/pagination',
+        status: 'completed'
+    },
+]
 
-  {
-    name: "Counter",
-    path: "/counter",
-    status: "completed",
-  },
-  {
-    name: "Circle with Random Color",
-    path: "/circle-random-color",
-    status: "completed",
-  },
-  {
-    name: "Typing",
-    path: "/typing",
-    status: "completed",
-  },
-  {
-    name: "Accordian",
-    path: "/accordian",
-    status: "completed",
-  },
-  {
-    name: "TabComponents",
-    path: "/tab-components",
-    status: "completed",
-  },
-  {
-    name: "Modal",
-    path: "/modal",
-    status: "completed",
-  },
-  {
-    name: "Tooltip",
-    path: "/tooltip",
-    status: "completed",
-  },
-];
 
 function ReactAllComponent(props) {
   return (
