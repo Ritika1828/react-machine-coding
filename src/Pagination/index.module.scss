@@ -1,0 +1,41 @@
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .btn{
+        display: flex;
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px;
+        width: 50px;
+
+        &.active{
+            border-radius: 50%;
+            background-color: pink;
+            height: 50px;
+
+        }
+    }
+    .pageCont{
+        display: flex;
+       
+
+    }
+}
+
+.svgBtn{
+    svg{
+        height: 24px;
+    }
+    
+}
