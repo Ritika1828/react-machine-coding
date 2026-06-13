@@ -14,10 +14,11 @@ import TypingComponent from "./src/TypingComponent";
 import Accordian from "./src/Accordian";
 import { Counter } from "./src/Counter";
 import TabComponent from "./src/TabComponent";
+import JobBoard from "./src/JobBoard";
 import "./index.css";
 import { Counter } from "./src/Counter";
 import CircleWithRandomColor from "./src/CircleWithRandomColor";
-import Pagination from "./src/Pagination"
+import Pagination from "./src/Pagination";
 import TypingComponent from "./src/TypingComponent";
 import Tooltip from "./src/ToolTip";
 import Modal from "./src/Modal";
@@ -78,10 +79,15 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/tooltip",
-        element: <Tooltip />,      },
+        element: <Tooltip />,
+      },
       {
         path: "/pagination",
-        element: <Pagination/>
+        element: <Pagination />,
+      },
+      {
+        path: "/job-board",
+        element: <JobBoard />,
       },
     ],
     errorElement: <Error />,
