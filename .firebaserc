@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "react-project-comp"
-  }
+    "default": "react-machine-coding"
+  },
+  "targets": {},
+  "etags": {}
 }
