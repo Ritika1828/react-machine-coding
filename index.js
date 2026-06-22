@@ -16,6 +16,8 @@ import { Counter } from "./src/Counter";
 import TabComponent from "./src/TabComponent";
 import JobBoard from "./src/JobBoard";
 import TransferList from "./src/TransferList";
+import LikeUnlike from "./src/LikeUnlike";
+import UserDatabase from "./src/UserDatabase";
 import HistoryManagement from "./src/HistoryManagement";
 import "./index.css";
 import { Counter } from "./src/Counter";
@@ -99,6 +101,14 @@ const appRouter = createBrowserRouter([
       {
         path: "/history-management",
         element: <HistoryManagement />,
+      },
+      {
+        path: "/like-unlike",
+        element: <LikeUnlike />,
+      },
+      {
+        path: "/user-database",
+        element: <UserDatabase />,
       },
     ],
     errorElement: <Error />,

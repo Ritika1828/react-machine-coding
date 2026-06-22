@@ -76,6 +76,16 @@ const componentList = [
     path: "/history-management",
     status: "pending",
   },
+  {
+    name: "Like Unlike",
+    path: "/like-unlike",
+    status: "pending",
+  },
+  {
+    name: "User Database",
+    path: "/user-database",
+    status: "pending",
+  },
 ];
 
 function ReactAllComponent(props) {
@@ -95,7 +105,6 @@ function ReactAllComponent(props) {
 ReactAllComponent.propTypes = {};
 
 export default ReactAllComponent;
-
 
 /* Requirements
 Players can take turns to place an X or an O on the board.
